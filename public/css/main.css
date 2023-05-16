@@ -13,3 +13,9 @@
 #carte .nav-pills .nav-link.active {
     outline: 3px solid white;
 }
+
+.footer {
+    height: 3rem;
+    line-height: 3rem;
+    margin-top: -3rem;
+}
