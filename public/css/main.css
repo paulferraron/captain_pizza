@@ -5,3 +5,11 @@
 .rubrique {
     padding-top: 4rem;
 }
+
+#carte .nav-pills .nav-link {
+    outline: 1px solid white;
+}
+
+#carte .nav-pills .nav-link.active {
+    outline: 3px solid white;
+}
