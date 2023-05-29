@@ -1,0 +1,22 @@
+FONTS
+Font: Bebas Neue
+Author: Fontfabric
+Url: http://www.fontsquirrel.com/fonts/bebas-neue
+
+Font: Lato
+Author: tyPoland Lukasz Dziedzic
+Url: http://www.fontsquirrel.com/fonts/lato
+
+Font: Umbrage
+Author: Vic Fieger
+Url: http://www.fontsquirrel.com/fonts/umbrage
+
+Font: Courgette
+Author: Sorkin Type Co
+Url: https://www.fontsquirrel.com/fonts/courgette
+
+
+COLORS
+Orange
+Black
+Green
