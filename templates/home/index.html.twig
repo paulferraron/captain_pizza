@@ -20,59 +20,228 @@
             </article>
         </div>
     </section>
-    <section class="rubrique vh-100 d-flex flex-column bg-primary" id="carte">
+    <section class="rubrique min-vh-100 d-flex flex-column bg-primary" id="carte">
         <h2 class="text-center text-light pt-3">Carte</h2>
         <ul class="nav nav-pills d-flex justify-content-center my-4" id="carteTabs" role="tablist">
-            <li class="nav-item me-4 p-0" role="presentation">
-                <button class="nav-link rounded-pill text-light active" id="white-pizzas-tab" data-bs-toggle="tab" data-bs-target="#white-pizzas-tab-pane" type="button" role="tab" aria-controls="white-pizzas-tab-pane" aria-selected="true">Pizzas blanches</button>
-            </li>
             <li class="nav-item mx-4 p-0" role="presentation">
-                <button class="nav-link rounded-pill text-light" id="red-pizzas-tab" data-bs-toggle="tab" data-bs-target="#red-pizzas-tab-pane" type="button" role="tab" aria-controls="red-pizzas-tab-pane" aria-selected="false">Pizzas rouges</button>
+                <button class="nav-link rounded-pill text-light active" id="base-tomate-tab" data-bs-toggle="tab" data-bs-target="#base-tomate-tab-pane" type="button" role="tab" aria-controls="base-tomate-tab-pane" aria-selected="true">Bases tomate</button>
             </li>
-            <li class="nav-item ms-4 p-0" role="presentation">
+            <li class="nav-item me-4 p-0" role="presentation">
+                <button class="nav-link rounded-pill text-light" id="base-creme-tab" data-bs-toggle="tab" data-bs-target="#base-creme-tab-pane" type="button" role="tab" aria-controls="base-creme-tab-pane" aria-selected="false">Bases crème</button>
+            </li>
+            <li class="nav-item me-4 p-0" role="presentation">
+                <button class="nav-link rounded-pill text-light" id="base-autre-tab" data-bs-toggle="tab" data-bs-target="#base-autre-tab-pane" type="button" role="tab" aria-controls="base-autre-tab-pane" aria-selected="false">Autres bases</button>
+            </li>
+            <li class="nav-item me-4 p-0" role="presentation">
+                <button class="nav-link rounded-pill text-light" id="captains-tab" data-bs-toggle="tab" data-bs-target="#captains-tab-pane" type="button" role="tab" aria-controls="captains-tab-pane" aria-selected="false">Captains</button>
+            </li>
+            <li class="nav-item p-0" role="presentation">
                 <button class="nav-link rounded-pill text-light" id="drinks-tab" data-bs-toggle="tab" data-bs-target="#drinks-tab-pane" type="button" role="tab" aria-controls="drinks-tab-pane" aria-selected="false">Boissons</button>
             </li>
         </ul>
         <div class="tab-content d-flex justify-content-center" id="carteTabsContent">
-            <div class="tab-pane fade show active" id="white-pizzas-tab-pane" role="tabpanel" aria-labelledby="white-pizzas-tab" tabindex="0">
+            <div class="tab-pane fade show active" id="base-tomate-tab-pane" role="tabpanel" aria-labelledby="base-tomate-tab" tabindex="0">
                 <ul>
                     <li class="row mt-4">
-                        <h4 class="text-center text-light">Chèvre miel <i class="icofont-leaf"></i></h4>
+                        <h4 class="text-center text-light">MARGARITA</h4>
                         <div class="d-flex justify-content-between">
-                            <p class="text-light">Base crème fraîche, fromage de chèvre, miel, pignons</p>
-                            <p class="text-light">9 €</p>
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, avec ou sans épices aromatiques</p>
+                            <p class="text-light">8€ | 10€</p>
                         </div>
                     </li>
                     <li class="row mt-4">
-                        <h4 class="text-center text-light">Forestière <i class="icofont-clock-time"></i></h4>
+                        <h4 class="text-center text-light">REGINA</h4>
                         <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">Base crème fraîche, comté, champignons de Paris, lardons</p>
-                            <p class="text-light">10 €</p>
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Jambon, Champignons</p>
+                            <p class="text-light">10€ | 12€</p>
                         </div>
                     </li>
                     <li class="row mt-4">
-                        <h4 class="text-center text-light">3 fromages <i class="icofont-heart"></i></h4>
+                        <h4 class="text-center text-light">CHORIZO <i class="icofont-fire-alt"></i></h4>
                         <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">Base crème fraîche, mozzarella, roquefort, fromage de chèvre</p>
-                            <p class="text-light">10 €</p>
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Chorizo, Poivrons</p>
+                            <p class="text-light">10€ | 12€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">CAMPAGNARDE</h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Lardons, Oignons, Crème fraîche</p>
+                            <p class="text-light">10€ | 12€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">CIVIL WAR <i class="icofont-not-allowed"></i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Jambon, Ananas</p>
+                            <p class="text-light">10€ | 12€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">CATALANE <i class="icofont-fish"></i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Miettes de thon, Oignons, Poivrons</p>
+                            <p class="text-light">10€ | 12€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">CALZONE</h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Jambon, Champignons, Oeuf, repliée en chausson</p>
+                            <p class="text-light">12€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">5 FROMAGES</h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Chèvre, Roquefort, Morbier</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">BRIARDE</h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Brie, Lardons, Oignons</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">WAÈL</h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Fromage à raclette, Roquefort, Jambon</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">ORIENTALE <i class="icofont-fire-alt"></i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Harissa, Merguez, Oignons</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">VÉGÉTARIENNE <i class="icofont-leaf"></i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Champignons, Poivrons, Oignons, Artichauts</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">PAYSANNE</h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Lardons, Champignons, Chèvre, Poivrons, Oignons</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">MAGRET</h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Tomate, Emmental, Mozzarella, Magret de canard, Figues séchées, Pommes de terre</p>
+                            <p class="text-light">14€ | 16€</p>
                         </div>
                     </li>
                 </ul>
             </div>
-            <div class="tab-pane fade" id="red-pizzas-tab-pane" role="tabpanel" aria-labelledby="red-pizzas-tab" tabindex="0">
+            <div class="tab-pane fade" id="base-creme-tab-pane" role="tabpanel" aria-labelledby="base-creme-tab" tabindex="0">
                 <ul>
                     <li class="row mt-4">
-                        <h4 class="text-center text-light">Diablesse <i class="icofont-fire-alt"></i></h4>
+                        <h4 class="text-center text-light">CAPTAIN SOHAN <i class="icofont-heart"></i></h4>
                         <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">Base sauce tomate, mozzarella, piment, poivrons, chorizo</p>
-                            <p class="text-light">10 €</p>
+                            <p class="text-light">Base Crème, Emmental, Mozzarella, Lardons, Chèvre</p>
+                            <p class="text-light">10€ | 12€</p>
                         </div>
                     </li>
                     <li class="row mt-4">
-                        <h4 class="text-center text-light">Hawaïenne <i class="icofont-not-allowed"></i></h4>
+                        <h4 class="text-center text-light">CHÈVRE MIEL <i class="icofont-leaf"></i></h4>
                         <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">De l'ananas dans une pizza ? Personne ne mange ça, c'est interdit !</p>
-                            <p class="text-light">100000000000 €</p>
+                            <p class="text-light">Base Crème, Emmental, Mozzarella, Chèvre, Miel</p>
+                            <p class="text-light">10€ | 12€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">MORBIER</h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Crème, Emmental, Mozzarella, Lard, Morbier</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">MONTAGNARDE</h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Crème, Emmental, Mozzarella, Lard, Pommes de terre, Fromage à raclette</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">ROUERGAT</h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Crème, Emmental, Mozzarella, Roquefort, Pommes de terre, Lardons</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">INDIENNE <i class="icofont-fire-alt"></i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Crème, Emmental, Mozzarella, Poulet, Poivrons, Curry</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">BALTIQUE <i class="icofont-fish"></i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Crème, Emmental, Mozzarella, Saumon fumé, Jus de citron</p>
+                            <p class="text-light">14€ | 16€</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="base-autre-tab-pane" role="tabpanel" aria-labelledby="base-autre-tab" tabindex="0">
+                <ul>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">PROVENÇALE</i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base aïoli/crème, Emmental, Mozzarella, Jambon, Champignons</p>
+                            <p class="text-light">10€ | 12€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">OCCITANE</i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base aïoli/crème, Emmental, Mozzarella, Lardons, Poivrons</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">PESTO RICO</i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Base Pesto vert, Emmental, Mozzarella, Lardons, Ricotta, Oignons frits</p>
+                            <p class="text-light">12€ | 14€</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="captains-tab-pane" role="tabpanel" aria-labelledby="captains-tab" tabindex="0">
+                <p class="row mt-4 text-center text-light">Venez découvrir le CAPTAIN, un sandwich avec pâte à pizza garnis à l'intérieur et au dessus</p>
+                <ul>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">REGINA</i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Emmental, Mozzarella, Jambon, Champignons</p>
+                            <p class="text-light">6€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">4 FROMAGES</i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Emmental, Mozzarella, Chèvre, Roquefort</p>
+                            <p class="text-light">6€</p>
+                        </div>
+                    </li>
+                    <li class="row mt-4">
+                        <h4 class="text-center text-light">PESTO RICOTTA</i></h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="text-light">Emmental, Mozzarella, Pesto, Ricotta</p>
+                            <p class="text-light">6€</p>
                         </div>
                     </li>
                 </ul>
@@ -82,42 +251,23 @@
                     <li class="row mt-4">
                         <h4 class="text-center text-light">Coca Cola</h4>
                         <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">Bouteille de 1L</p>
+                            <p class="text-light">Bouteille de 1L</p>
                             <p class="text-light">2 €</p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">Bouteille de 2L</p>
+                            <p class="text-light">Bouteille de 2L</p>
                             <p class="text-light">3 €</p>
-                        </div>
-                    </li>
-                    <li class="row mt-4">
-                        <h4 class="text-center text-light">Bières</h4>
-                        <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">Chez Rémy blanche (25cL)</p>
-                            <p class="text-light">5 €</p>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">Chez Rémy blonde (25cL)</p>
-                            <p class="text-light">4 €</p>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">Chez Rémy ambrée (25cL)</p>
-                            <p class="text-light">6 €</p>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">Chez Rémy brune (25cL)</p>
-                            <p class="text-light">4 €</p>
                         </div>
                     </li>
                     <li class="row mt-4">
                         <h4 class="text-center text-light">Vin</h4>
                         <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">Bouteille de 25cL</p>
-                            <p class="text-light">4 €</p>
+                            <p class="text-light">Bouteille de 25cL</p>
+                            <p class="text-light">6 €</p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p class="text-center text-light">Bouteille de 75cL</p>
-                            <p class="text-light">8 €</p>
+                            <p class="text-light">Bouteille de 75cL</p>
+                            <p class="text-light">10 €</p>
                         </div>
                     </li>
                 </ul>

@@ -5,9 +5,10 @@ Mo'
 
 
 Paulo
-    Modifier Facebook
-    Remplacer pizzas
-    Ajouter sandwichs
+  X Modifier Facebook
+  X Remplacer pizzas
+  X Ajouter sandwichs
+    Ajouter mentions légales
     Nouvelles couleurs
     Nouvelles polices
     Nouveau logo
