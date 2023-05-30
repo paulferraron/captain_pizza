@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'Umbrage2';
+    src: url('/fonts/umbrage2-webfont.woff') format('woff'),
+         url('/fonts/umbrage2-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.custom-bg-primary {
+    background-color: orangered;
+}
+
+.custom-bg-secondary {
+    background-color: greenyellow;
+}
+
+.custom-text-primary {
+    color: orangered;
+}
+
+.custom-text-secondary {
+    color: greenyellow;
+}
+
+.custom-font-brand {
+    font-family: "Umbrage2";
+}
+
 .navbar {
     height: 4rem;
 }
@@ -7,11 +35,12 @@
 }
 
 #carte .nav-pills .nav-link {
-    outline: 1px solid white;
+    outline: 2px solid greenyellow;
 }
 
 #carte .nav-pills .nav-link.active {
-    outline: 3px solid white;
+    background-color: greenyellow;
+    outline: 2px solid black;
 }
 
 .footer {
