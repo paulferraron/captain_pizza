@@ -21,17 +21,17 @@
         <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-lg fixed-top custom-bg-primary">
                 <div class="container-fluid p-0">
-                    <a class="navbar-brand ms-4 fs-3 text-light custom-font-brand" href="#">Captain Pizza</a>
+                    <a class="navbar-brand ms-4 fs-3 text-light custom-font-brand" href="{{ path('app_home') }}#">Captain Pizza</a>
                     <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarScroll">
                         <ul class="navbar-nav navbar-nav-scroll ms-4 px-4" style="--bs-scroll-height: 100px;">
                             <li class="nav-item me-4">
-                                <a class="nav-link active fs-5 text-light" aria-current="page" href="#concept">Concept</a>
+                                <a class="nav-link active fs-5 text-light" aria-current="page" href="{{ path('app_home') }}#concept">Concept</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fs-5 text-light" href="#carte">Carte</a>
+                                <a class="nav-link fs-5 text-light" href="{{ path('app_home') }}#carte">Carte</a>
                             </li>
                         </ul>
                     </div>
@@ -43,7 +43,7 @@
             <footer class="footer d-flex justify-content-center custom-bg-primary">
                 <a class="btn btn-sm my-auto text-light me-4" href="https://www.facebook.com/CaptainPizza66" target="_blank"><i class="icofont-facebook icofont-2x"></i></a>
                 <p class="text-light mx-4">|</p>
-                <a class="text-light mx-4" href="#">Mentions légales</a>
+                <a class="text-light mx-4" href="{{ path('app_legal_mentions') }}">Mentions légales</a>
                 <p class="text-light mx-4">|</p>
                 <p class="text-light mx-4">Captain Pizza 2023 © Tous droits réservés
                 <p class="text-light mx-4">|</p>
