@@ -7,23 +7,27 @@
 }
 
 .custom-bg-primary {
-    background-color: orangered;
+    background-color: #ff6600;
 }
 
 .custom-bg-secondary {
-    background-color: greenyellow;
+    background-color: #99cc00;
 }
 
 .custom-text-primary {
-    color: orangered;
+    color: #ff6600;
 }
 
 .custom-text-secondary {
-    color: greenyellow;
+    color: #99cc00;
 }
 
 .custom-font-brand {
     font-family: "Umbrage2";
+}
+
+body {
+    background-color: #ffffe6;
 }
 
 .navbar {
@@ -35,11 +39,11 @@
 }
 
 #carte .nav-pills .nav-link {
-    outline: 2px solid greenyellow;
+    outline: 2px solid #99cc00;
 }
 
 #carte .nav-pills .nav-link.active {
-    background-color: greenyellow;
+    background-color: #99cc00;
     outline: 2px solid black;
 }
 
